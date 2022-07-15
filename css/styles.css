@@ -317,6 +317,7 @@ article {
   
   .content {
     margin: 20px 5%;
+    min-height: 300px;
   }
 
   .introduction {
@@ -339,6 +340,7 @@ article {
 
   .content {
     margin: 20px 10%;
+    min-height: 500px;
   }
 
   .introduction {
