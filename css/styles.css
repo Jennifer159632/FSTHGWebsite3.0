@@ -73,6 +73,14 @@ h3 {
   text-shadow: 2px 2px 3px lightgrey;
 }
 
+.remove {
+  display: none;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
 /* Navigation */
 
 .logo {
