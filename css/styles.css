@@ -274,8 +274,8 @@ video {
 }
 
 .game-image {
-  height: 812px;
-  width: 1118px;
+  height: auto;
+  width: auto;
 }
 
 .carousel-ctrlbtn-left {
@@ -373,8 +373,16 @@ article {
   }
 
   .game-image {
-    height: 412px;
-    width: 668px;
+    height: auto;
+    width: 400px;
+  }
+
+  .carousel-ctrlbtn-left {
+    margin-left: -50px;
+  }
+  
+  .carousel-ctrlbtn-right {
+    margin-right: -50px;
   }
 
 }
@@ -401,8 +409,16 @@ article {
   }
 
   .game-image {
-    height: 412px;
-    width: 668px;
+    height: auto;
+    width: 400px;
+  }
+
+  .carousel-ctrlbtn-left {
+    margin-left: -100px;
+  }
+  
+  .carousel-ctrlbtn-right {
+    margin-right: -100px;
   }
 
 }
