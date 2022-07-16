@@ -372,6 +372,11 @@ article {
     font-size: 42px;
   }
 
+  .game-image {
+    height: 412px;
+    width: 668px;
+  }
+
 }
 
 /* Tablets */
@@ -393,6 +398,11 @@ article {
 
   .listgroups a {
     font-size: 32px;
+  }
+
+  .game-image {
+    height: 412px;
+    width: 668px;
   }
 
 }
