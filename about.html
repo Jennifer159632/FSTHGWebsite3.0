@@ -13,6 +13,10 @@
     <!-- Stylesheets -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link href="css/styles.css" rel="stylesheet">
+
+    <!-- Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
   </head>
   <body>
     <img class="border-img bottomleft corner" src="images/borders/AIOfficeEscape_UI_Border_Corner_V2_bottomleft.png">
@@ -23,103 +27,132 @@
     <img class="border-img rightside sides" src="images/borders/AIOfficeEscape_UI_Border_Side_V2_4x4_sides.png">
     <img class="border-img top" src="images/borders/AIOfficeEscape_UI_Border_Side_V2_4x4_topbottom.png">
     <img class="border-img bottom" src="images/borders/AIOfficeEscape_UI_Border_Side_V2_4x4_topbottom.png">
-    <header>
-      <nav class="banner-menu">
-        <ul class="nobull banner-links">
-          <li><a class="banner-links-text" href="about.html">About</a></li>
-          <li><a href="index.html"><img class="logo" src="images/logos/Logo 170-170.png"></a></li>
-          <li><a class="banner-links-text" href="news.html">News</a></li>
-        </ul>
-      </nav>
-     
+    <div class="blur-container">
+      <header>
+        <nav class="banner-menu">
+          <ul class="nobull banner-links">
+            <li><a class="banner-links-text" href="about.html">About</a></li>
+            <li><a href="index.html"><img class="logo" src="images/logos/Logo 170-170.png"></a></li>
+            <li><a class="banner-links-text" href="news.html">News</a></li>
+          </ul>
+        </nav>
+      
 
-        <img class="banner" src="images/logos/Logo 1500-500.png">
+          <img class="banner" src="images/logos/Logo 1500-500.png">
 
-    </header>
-    <div class="content">
-      <h1>About Us</h1>
-      <div class="liam">
-        <img class="profile-pic" src="images/pfp/Liam/Liam Portrait Concept 1.png">
-        <p class="name">
-          Liam Worthington
-        </p>
-        <p class="bio-para">
-          <b>Roles:</b> <span class="bio-text">Founder/Programmer</span>
-          <br>
-          <b>Gaming Platforms:</b> <span class="bio-text">PC, Mobile</span>
-          <br>
-          <b>Favorite Games:</b> <span class="bio-text">Escape from Tarkov, Stardew Valley, CoD: Warzone, Core Keeper</span>
-          <br>
-          <b>Hobbies:</b> <span class="bio-text">Video Games, Reading, Walking</span>
-          <br>
-          <b>Something Interesting:</b> <span class="bio-text">I am switching careers from Audio Engineering to Game Development.</span>
-          <br>
-        </p>
+      </header>
+      <div class="content">
+        <h1>About Us</h1>
+        <div class="liam">
+          <img class="profile-pic" src="images/pfp/Liam/Liam Portrait Concept 1.png">
+          <p class="name">
+            Liam Worthington
+          </p>
+          <p class="bio-para">
+            <b>Roles:</b> <span class="bio-text">Founder/Programmer</span>
+            <br>
+            <b>Gaming Platforms:</b> <span class="bio-text">PC, Mobile</span>
+            <br>
+            <b>Favorite Games:</b> <span class="bio-text">Escape from Tarkov, Stardew Valley, CoD: Warzone, Core Keeper</span>
+            <br>
+            <b>Hobbies:</b> <span class="bio-text">Video Games, Reading, Walking</span>
+            <br>
+            <b>Something Interesting:</b> <span class="bio-text">I am switching careers from Audio Engineering to Game Development.</span>
+            <br>
+          </p>
+        </div>
+        <div class="jen">
+          <img class="profile-pic" src="images/pfp/Jennifer/Jennifer Portrait Concept 1.png">
+          <p class="name">
+            Jennifer Worthington
+          </p>
+          <p class="bio-para">
+            <b>Roles:</b> <span class="bio-text">Programmer/Web Developer</span>
+            <br>
+            <b>Gaming Platforms:</b> <span class="bio-text">PC, Playstation 4, Nintendo Switch</span>
+            <br>
+            <b>Favorite Games:</b> <span class="bio-text">The Witcher 3, Pokemon Series, Final Fantasy X, The Legend of Zelda: Breath of the Wild, <br>Dragonball Xenoverse 2, Resident Evil Village</span>
+            <br>
+            <b>Hobbies:</b> <span class="bio-text">Gaming, Fantasy/Sci-Fi books, Anime, Manga, All things programming</span>
+            <br>
+            <b>Something Interesting:</b> <span class="bio-text">I studied music at university.</span>
+            <br>
+          </p>
+        </div>
+        <div class="matt">
+          <img class="profile-pic" src="images/pfp/Matthew/Matthew portait concept 2.png">
+          <p class="name">
+            Matthew Long
+          </p>
+          <p class="bio-para">
+            <b>Roles:</b> <span class="bio-text">Artist</span>
+            <br>
+            <b>Gaming Platforms:</b> <span class="bio-text">Currently I game on my computer the most, but I have had the most Playstations, and a few forms of Nintento.</span>
+            <br>
+            <b>Favorite Games:</b> <span class="bio-text">Duke Nukem 3D, Zelda: A Link to the Past, Escape from Tarkov, Bioshock series, Dark Souls series, God of War (PS4), The Last of Us</span>
+            <br>
+            <b>Hobbies:</b> <span class="bio-text">Gaming, Archery, Hiking, Nature, Cooking, Relaxing</span>
+            <br>
+            <b>Something Interesting:</b> <span class="bio-text">Excited to be making my first game. I've gamed and made art my whole life, it's fun to see this all come together. Excited for what's to come.</span>
+            <br>
+          </p>
+        </div>
       </div>
-      <div class="jen">
-        <img class="profile-pic" src="images/pfp/Jennifer/Jennifer Portrait Concept 1.png">
-        <p class="name">
-          Jennifer Worthington
-        </p>
-        <p class="bio-para">
-          <b>Roles:</b> <span class="bio-text">Programmer/Web Developer</span>
-          <br>
-          <b>Gaming Platforms:</b> <span class="bio-text">PC, Playstation 4, Nintendo Switch</span>
-          <br>
-          <b>Favorite Games:</b> <span class="bio-text">The Witcher 3, Pokemon Series, Final Fantasy X, The Legend of Zelda: Breath of the Wild, <br>Dragonball Xenoverse 2, Resident Evil Village</span>
-          <br>
-          <b>Hobbies:</b> <span class="bio-text">Gaming, Fantasy/Sci-Fi books, Anime, Manga, All things programming</span>
-          <br>
-          <b>Something Interesting:</b> <span class="bio-text">I studied music at university.</span>
-          <br>
-        </p>
-      </div>
-      <div class="matt">
-        <img class="profile-pic" src="images/pfp/Matthew/Matthew portait concept 2.png">
-        <p class="name">
-          Matthew Long
-        </p>
-        <p class="bio-para">
-          <b>Roles:</b> <span class="bio-text">Artist</span>
-          <br>
-          <b>Gaming Platforms:</b> <span class="bio-text">Currently I game on my computer the most, but I have had the most Playstations, and a few forms of Nintento.</span>
-          <br>
-          <b>Favorite Games:</b> <span class="bio-text">Duke Nukem 3D, Zelda: A Link to the Past, Escape from Tarkov, Bioshock series, Dark Souls series, God of War (PS4), The Last of Us</span>
-          <br>
-          <b>Hobbies:</b> <span class="bio-text">Gaming, Archery, Hiking, Nature, Cooking, Relaxing</span>
-          <br>
-          <b>Something Interesting:</b> <span class="bio-text">Excited to be making my first game. I've gamed and made art my whole life, it's fun to see this all come together. Excited for what's to come.</span>
-          <br>
-        </p>
-      </div>
+      <footer>
+        <nav class="linklist">
+          <div class="listgroups">
+            <ul class="nobull">
+              <li><a href="index.html"><i class="social-icon fa-solid fa-house"></i> Home</a></li>
+              <li><a href="about.html"><i class="social-icon fa-solid fa-circle-info"></i> About</a></li>
+              <li><a href="jobs.html"><i class="social-icon fa-solid fa-briefcase"></i> Jobs</a></li>
+            </ul>
+          </div>
+          <div class="listgroups">
+            <ul class="nobull">
+              <li><a href="https://twitter.com/flip63holegames" target="_blank"><i class="social-icon fa-brands fa-twitter"></i> Twitter</a></li>
+              <li><a href="https://www.facebook.com/flipsixthreeholegames" target="_blank"><i class="social-icon fa-brands fa-facebook"></i> Facebook</a></li>
+              <li><a href="" target="_blank"><i class="social-icon fa-brands fa-instagram"></i> Instagram</a></li>
+            </ul>
+          </div>
+          <div class="listgroups">
+            <ul class="nobull">
+              <li><button class="contact-btn"><i class="social-icon fa-solid fa-envelope"></i> Contact</button></li>
+              <li><a href="" target="_blank"><i class="social-icon fa-brands fa-twitch"></i> Twitch</a></li>
+              <li class="invisible"><a href="" target="_blank"><i class="social-icon fa-brands fa-discord"></i> Discord</a></li>
+            </ul>
+          </div>
+        </nav>
+      </footer>
     </div>
-    <footer>
-      <nav class="linklist">
-        <div class="listgroups">
-          <ul class="nobull">
-            <li><a href="index.html"><i class="social-icon fa-solid fa-house"></i> Home</a></li>
-            <li><a href="about.html"><i class="social-icon fa-solid fa-circle-info"></i> About</a></li>
-            <li><a href="jobs.html"><i class="social-icon fa-solid fa-briefcase"></i> Jobs</a></li>
-          </ul>
+
+    <div class="alert-container invisible">
+
+      <div class="alert">
+        <div class="alert-banner">
+  
         </div>
-        <div class="listgroups">
-          <ul class="nobull">
-            <li><a href="https://twitter.com/flip63holegames" target="_blank"><i class="social-icon fa-brands fa-twitter"></i> Twitter</a></li>
-            <li><a href="https://www.facebook.com/flipsixthreeholegames" target="_blank"><i class="social-icon fa-brands fa-facebook"></i> Facebook</a></li>
-            <li><a href="" target="_blank"><i class="social-icon fa-brands fa-instagram"></i> Instagram</a></li>
-          </ul>
+  
+        <div class="alert-content">
+          <h3>Contact us</h3>
+
+          <form class="contact-form">
+            <label for="contact-name">Name:</label><br>
+            <input type="text" id="contact-name" name="contact-name"><br>
+            <label for="contact-email">Email:</label><br>
+            <input type="email" id="contact-email" name="contact-email"><br>
+            <label for="contact-message">Message:</label><br>
+            <textarea id="contact-message" name="contact-message" rows="5" cols="40"></textarea>
+            <input class="contact-btn" type="submit" value="Send">
+            <button class="contact-btn">Cancel</button>
+          </form>
+
         </div>
-        <div class="listgroups">
-          <ul class="nobull">
-            <li><a href="mailto:flipsixthreeholegames@gmail.com" target="_blank"><i class="social-icon fa-solid fa-envelope"></i> Contact</a></li>
-            <li><a href="" target="_blank"><i class="social-icon fa-brands fa-twitch"></i> Twitch</a></li>
-            <li class="invisible"><a href="" target="_blank"><i class="social-icon fa-brands fa-discord"></i> Discord</a></li>
-          </ul>
-        </div>
-      </nav>
-    </footer>
+      </div>
+  
+    </div>
     
     <!-- Scripts -->
+    <script src="javascript/index.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   </body>
 </html>
