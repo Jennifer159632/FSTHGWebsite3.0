@@ -266,22 +266,6 @@ video {
   background: linear-gradient(150deg, rgb(71, 142, 169) 41%, rgb(143, 161, 169));
 }
 
-.contact-btn {
-  font-family: 'Proggy Small';
-  font-size: 24px;
-  color: black;
-  background: linear-gradient(150deg, darkgrey 41%, white);
-  padding: 1px 6px 2px;
-  margin: 4px 4px 4px 6px;
-  line-height: 1.2em;
-  border-radius: 8px;
-  border: 2px rgba(10,101,120,255) solid;
-}
-
-.contact-btn:hover {
-  background: linear-gradient(150deg, rgb(71, 142, 169) 41%, rgb(143, 161, 169));
-}
-
 /* Contact Alert */
 
 .blur {
