@@ -263,7 +263,94 @@ video {
 }
 
 .listgroups a:hover {
-  background: linear-gradient(150deg, rgb(71, 142, 169) 41%, rgb(143, 161, 169))
+  background: linear-gradient(150deg, rgb(71, 142, 169) 41%, rgb(143, 161, 169));
+}
+
+.contact-btn {
+  font-family: 'Proggy Small';
+  font-size: 24px;
+  color: black;
+  background: linear-gradient(150deg, darkgrey 41%, white);
+  padding: 1px 6px 2px;
+  margin: 4px 4px 4px 6px;
+  line-height: 1.2em;
+  border-radius: 8px;
+  border: 2px rgba(10,101,120,255) solid;
+}
+
+.contact-btn:hover {
+  background: linear-gradient(150deg, rgb(71, 142, 169) 41%, rgb(143, 161, 169));
+}
+
+/* Contact Alert */
+
+.blur {
+  filter:blur(2px);
+}
+
+.alert-container {
+  width: 98%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 0;
+}
+
+.alert {
+  position: fixed;
+  width: 40%;
+  height: 525px;
+  padding: 0;
+  background-color: rgb(98.5, 98.5, 98.5);
+  top: 10%;
+  left: 30%;
+  border: 4px solid rgba(10,101,120,255);
+  border-radius: 12px;
+  font-family: 'Proggy Small';
+  font-size: 24px;
+  color:aliceblue;
+  line-height: 1.15em;
+}
+
+.alert-banner {
+  width: 100%;
+  height: 7%;
+  margin: 0;
+  background-color: rgb(42, 42, 42);
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.alert-content {
+  text-align: center;
+  padding: 4% 7%;
+}
+
+.alert-btn {
+  font-family: 'Proggy Small';
+  font-size: 24px;
+  color:black;
+  background: linear-gradient(150deg, darkgrey 41%, white);
+  padding: 6px 12px;
+  margin: 0;
+  line-height: 1em;
+  border-radius: 8px;
+  border: 2px rgba(10,101,120,255) solid;
+}
+
+.alert-btn:hover {
+  background: linear-gradient(150deg, rgb(71, 142, 169) 41%, rgb(143, 161, 169));
+}
+
+.contact-form {
+  padding: 2% 10%;
+  text-align: left;
+}
+
+#contact-message {
+  resize: none;
 }
 
 /* Index Page */
