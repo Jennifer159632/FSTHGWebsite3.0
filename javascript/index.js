@@ -3,7 +3,12 @@ $(".contact-btn").click(function(){
     $(".alert-container").removeClass("invisible");
 })
 
-$(".alert-btn").click(function(){
+$(".alert-close").click(function(){
     $(".blur-container").removeClass("blur");
     $(".alert-container").addClass("invisible");
+})
+
+$(".form-close").click(function(){
+    $(".blur-container").removeClass("blur");
+    $(".form-container").addClass("invisible");
 })

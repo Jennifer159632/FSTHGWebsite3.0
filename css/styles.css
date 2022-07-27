@@ -282,6 +282,15 @@ video {
   top: 0;
 }
 
+.contact-form {
+  width: 100%;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+}
+
 .alert {
   position: fixed;
   width: 40%;
@@ -296,6 +305,24 @@ video {
   font-size: 24px;
   color:aliceblue;
   line-height: 1.15em;
+}
+
+.alert-close {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  height: 30px;
+  width: 30px;
+  background-color: rgb(98.5, 98.5, 98.5);
+  border: 2px solid rgba(10,101,120,255);
+  border-radius: 100%;
+  color: aliceblue;
+  padding: 8px 5px 5px 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  font-size: 1.3rem;
 }
 
 .alert-banner {
@@ -343,8 +370,14 @@ video {
 
 /* AI Office Escape Page */
 
+.wave {
+  height: 50px;
+  width: auto;
+  margin: 16px 40px;
+}
+
 .game-images-container {
-  min-height: 1000px;
+  min-height: 900px;
   padding: 7% 10%;
   display: flex;
   flex-direction: column;
@@ -354,7 +387,7 @@ video {
 }
 
 .game-images {
-  min-height: 820px;
+  min-height: 700px;
   display: flex;
   align-items: center;
 }
@@ -398,6 +431,101 @@ video {
 
 .char-bio p {
   font-size: 18px;
+}
+
+/* AI Office Escape Page - Form */
+
+.form-form {
+  width: 100%;
+}
+
+.form-form input,
+.form-form textarea {
+  width: 100%;
+}
+
+.form-container {
+  width: 98%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 0;
+}
+
+.form {
+  position: fixed;
+  width: 40%;
+  height: 525px;
+  padding: 0;
+  background-color: rgb(98.5, 98.5, 98.5);
+  top: 10%;
+  left: 30%;
+  border: 4px solid rgba(10,101,120,255);
+  border-radius: 12px;
+  font-family: 'Proggy Small';
+  font-size: 24px;
+  color:aliceblue;
+  line-height: 1.15em;
+}
+
+.form-close {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  height: 30px;
+  width: 30px;
+  background-color: rgb(98.5, 98.5, 98.5);
+  border: 2px solid rgba(10,101,120,255);
+  border-radius: 100%;
+  color: aliceblue;
+  padding: 8px 5px 5px 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  font-size: 1.3rem;
+}
+
+.form-banner {
+  width: 100%;
+  height: 7%;
+  margin: 0;
+  background-color: rgb(42, 42, 42);
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.form-content {
+  text-align: center;
+  padding: 4% 7%;
+}
+
+.form-submit-btn,
+.form-btn {
+  font-family: 'Proggy Small';
+  font-size: 24px;
+  color:black;
+  background: linear-gradient(150deg, darkgrey 41%, white);
+  padding: 6px 12px;
+  margin: 0;
+  line-height: 1em;
+  border-radius: 8px;
+  border: 2px rgba(10,101,120,255) solid;
+}
+
+.form-submit-btn:hover {
+  background: linear-gradient(150deg, rgb(71, 142, 169) 41%, rgb(143, 161, 169));
+}
+
+.form-form {
+  padding: 2% 10%;
+  text-align: left;
+}
+
+#form-message {
+  resize: none;
 }
 
 /* About Page */
