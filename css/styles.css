@@ -387,14 +387,23 @@ video {
 }
 
 .game-images {
-  min-height: 700px;
+  height: 440px;
+  width: 880px;
   display: flex;
   align-items: center;
 }
 
+.carousel-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .game-image {
-  height: auto;
-  width: auto;
+  width: 870px;
+  height: 641px;
+  padding: 15px;
+  object-fit: cover;
 }
 
 .carousel-ctrlbtn-left {
