@@ -8,6 +8,11 @@ $(".alert-close").click(function(){
     $(".alert-container").addClass("invisible");
 })
 
+$(".bug-alert").click(function(){
+    $(".blur-container").addClass("blur");
+    $(".form-container").removeClass("invisible");
+})
+
 $(".form-close").click(function(){
     $(".blur-container").removeClass("blur");
     $(".form-container").addClass("invisible");
